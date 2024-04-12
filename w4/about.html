@@ -32,6 +32,73 @@
 
     <p>I have never used chatGPT before this assignment. I don't know if I like it. I used the prompt to learn about online book clubs so I could create this web page but I dont know if I choose the right topic for something like this. My webpage seems kind of boring. It gave me a full essay I could have copies and pasted. Maybe I should try to experiment with it more but as of right now it wasn't as helpful as if I would've just done my own research.</p>
 
+    <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Personal Info</legend>
+        <p>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required autofocus>
+        </p>
+        <p>
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+        </p>
+        <p>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="5555555555" 
+            pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+        </p>
+            <br>
+            <fieldset>
+                <legend>What is your favorite genre?</legend>
+                <p>
+                    <input type="radio" name="genre" id="Romance" value="Romance">
+                    <label for="Romance">Romance</label>
+                </p>
+                <p>
+                    <input type="radio" name="genre" id="Thriller" value="Thriller">
+                    <label for="Thriller">Thriller</label>
+                </p>
+                <p>
+                    <input type="radio" name="genre" id="other" value="other">
+                    <label for="other">Other</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Which books have you read?</legend>
+                <p>
+                    <input type="checkbox" name="books" id="acotar" value="acotar">
+                    <label for="acotar">ACOTAR</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="books" id="uglylove" value="uglylove">
+                    <label for="uglylove">Ugly Love</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="books" id="shatterme" value="shatterme">
+                    <label for="shatterme">Shatter Me</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="books" id="otherbooks" value="otherbooks">
+                    <label for="otherbooks">Other</label>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Send Me A Note</legend>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+            <button type="reset">Reset</button>
+            
+    </fieldset>
+    </form>
+
 <hr>
 &lt;&lt;&lt; &copy; <a href="about.html">Denise Foster</a> &gt;&gt;&gt;
 <p>
