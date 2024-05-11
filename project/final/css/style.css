@@ -1,0 +1,172 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: papayawhip;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+} 
+/* aligns the top and bottom */
+/* might look for softer background color */
+/* added font size */
+
+
+body, h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* container */
+header, nav, main, footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* added padding and flex properties */
+/* header */
+header {
+    font-family: "Lugrasimo", cursive;
+    background-color: #091a38ff;
+    color: #ffefd5ff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* nav */
+nav {
+    margin-top: 20px;
+}
+/* styles unordered list in nav menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+/* styles list items in nav menu */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/* styles anchor links within the nav menu */
+nav ul li a {
+    text-decoration: none;
+    color: #ffefd5ff;
+}
+
+nav ul li a:visited {
+    color: rgb(182, 221, 246);
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+nav ul li a:active {
+    color: whitesmoke;
+}
+
+/* content */
+section h2, article h3, article p, address {
+    color: #16166bff; /* set text color using Federal-Blue from color palette*/
+}
+
+/* text and image welcome page */
+.text-container {
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.image-right {
+    width: 300px;
+    height: auto;
+}
+
+.image-float-right {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.image-float-left {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* style footer*/
+footer {
+    background-color: #091a38ff;
+    color: #ffefd5ff;
+}
+
+/* table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #091a38ff;
+    color: #ffefd5ff;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #091a38ff;
+    padding: 10px;
+}
+
+/* hover effect */
+tr:hover {
+    background-color: whitesmoke;
+}
+
+/* media queries */
+/* small devices (phones) */
+@media (min-width: 576px) {
+    body {
+        font-size: small;
+    }
+}
+
+/* medium devices (tablets) */
+@media (min-width: 768px) {
+    body {
+        font-size: medium;
+    }
+}
+
+/* large devices (desktops) */
+@media (min-width: 992px) {
+    body {
+        font-size: large;
+    }
+}
+
+/* extra large devices (large desktops) */
+@media (min-width: 1200px) {
+    body {
+        font-size: x-large;
+    }
+}
+
+
+
