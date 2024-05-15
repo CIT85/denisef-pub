@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
+    background-size: cover;
 } 
 /* aligns the top and bottom */
 /* might look for softer background color */
@@ -188,32 +189,45 @@ input[type="submit"]:hover {
 
 /* media queries */
 /* small devices (phones) */
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
     body {
+        background-color: papayawhip;
         font-size: small;
+    }
+    nav {
+        display: none;
     }
 }
 
 /* medium devices (tablets) */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     body {
+        background-color: papayawhip;
         font-size: medium;
     }
 }
 
 /* large devices (desktops) */
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     body {
+        background-color: papayawhip;
         font-size: large;
     }
 }
 
 /* extra large devices (large desktops) */
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     body {
+        background-color: papayawhip;
         font-size: x-large;
     }
 }
-
+ /* mobile device landscape */
+ @media  screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+    body {
+        background-color: papayawhip;
+        font-size: small;
+    }
+ }
 
 
