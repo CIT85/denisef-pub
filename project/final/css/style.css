@@ -194,10 +194,8 @@ input[type="submit"]:hover {
         background-color: papayawhip;
         font-size: small;
     }
-    nav {
-        display: none;
-    }
 }
+
 
 /* medium devices (tablets) */
 @media screen and (min-width: 768px) {
